@@ -19,4 +19,10 @@ public class HelloController {
         System.out.println("user");
         return "user";
     }
+
+    @GetMapping("/name")
+    public String getName(){
+        System.out.println("name");
+        return "name";
+    }
 }
